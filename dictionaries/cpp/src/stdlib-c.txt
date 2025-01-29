@@ -1,72 +1,67 @@
 # general
 errno
 
-
 # https://en.cppreference.com/w/cpp/header/cstddef
 cstddef
 offsetof
 ptrdiff
 
-
 # https://en.cppreference.com/w/cpp/header/cstdlib
-getenv
-malloc
-calloc
-realloc
 atof
 atoi
 atol
 atoll
+bsearch
+calloc
+cstdlib
+getenv
+labs
+ldiv
+llabs
+lldiv
+malloc
+mblen
+mbstowcs
+mbtowc
+qsort
+realloc
+srand
+strtod
+strtof
 strtol
+strtold
 strtoll
 strtoul
 strtoull
-strtof
-strtod
-strtold
-mblen
-mbtowc
-wctomb
-mbstowcs
 wcstombs
-srand
-qsort
-bsearch
-labs
-llabs
-ldiv
-lldiv
-
+wctomb
 
 # https://en.cppreference.com/w/cpp/header/climits
 climits
+llong
 schar
 shrt
-llong
 uchar
-ushrt
-ulong
 ullong
-
+ulong
+ushrt
 
 # https://en.cppreference.com/w/cpp/header/cfloat
 cfloat
-flt
 dbl
+flt
 ldbl
 mant
 subnorm
 
-
 # https://en.cppreference.com/w/cpp/header/cstdint
 intmax
 intptr
+ptrdiff
 uint
 uintmax
 uintptr
-ptrdiff
 wint
-
 
 # https://en.cppreference.com/w/cpp/header/csignal
 csignal
@@ -77,274 +72,264 @@ sigint
 sigsegv
 sigterm
 
-
 # https://en.cppreference.com/w/cpp/header/csetjmp
 csetjmp
-setjmp
 longjmp
-
+setjmp
 
 # https://en.cppreference.com/w/cpp/header/cstdarg
-
+cstdarg
 
 # https://en.cppreference.com/w/cpp/header/cassert
-
+cassert
+NDEBUG
 
 # https://en.cppreference.com/w/cpp/header/ctime
-ctime
-timespec
-difftime
 asctime
-strftime
-wcsftime
+ctime
+difftime
 gmtime
 localtime
 mktime
-
+strftime
+timespec
+wcsftime
 
 # https://en.cppreference.com/w/cpp/header/cstring
 cstring
-strcpy
-strncpy
-strcat
-strncat
-strxfrm
-strlen
-strcmp
-strncmp
-strcoll
-strchr
-strrchr
-strspn
-strcspn
-strpbrk
-strstr
-strtok
 memchr
 memcmp
-memset
 memcpy
 memmove
-
+memset
+strcat
+strchr
+strcmp
+strcoll
+strcpy
+strcspn
+strlen
+strncat
+strncmp
+strncpy
+strpbrk
+strrchr
+strspn
+strstr
+strtok
+strxfrm
 
 # https://en.cppreference.com/w/cpp/header/cctype
+cctype
 isalnum
 isalpha
-islower
-isupper
-isdigit
-isxdigit
-iscntrl
-isgraph
-isspace
 isblank
+iscntrl
+isdigit
+isgraph
+islower
 isprint
 ispunct
+isspace
+isupper
+isxdigit
 tolower
 toupper
 
-
 # https://en.cppreference.com/w/cpp/header/cwctype
-wctrans_t
-wctype_t
 iswalnum
 iswalpha
-iswlower
-iswupper
-iswdigit
-iswxdigit
-iswcntrl
-iswgraph
-iswspace
 iswblank
+iswcntrl
+iswctype
+iswdigit
+iswgraph
+iswlower
 iswprint
 iswpunct
-iswctype
-wctype
+iswspace
+iswupper
+iswxdigit
+towctrans
 towlower
 towupper
-towctrans
 wctrans
-
+wctrans_t
+wctype
+wctype_t
 
 # https://en.cppreference.com/w/cpp/header/cwchar
-WEOF
-mbstate
-wint
-wcscpy
-wcscat
-wcsncat
-wcsxfrm
-wcslen
-wcscmp
-wcsncmp
-wcscoll
-wcschr
-wcsrchr
-wcsspn
-wcspbrk
-wcsstr
-wcstok
-wmemcpy
-wmemmove
-wmemcmp
-wmemchr
-wmemset
-mbsinit
 btowc
-wctob
-mbrlen
-mbrtowc
-wcrtomb
-mbsrtowcs
-wcsrtombs
+cwchar
 fgetwc
-getwc
 fgetws
 fputwc
-putwc
 fputws
-getwchar
-putwchar
-ungetwc
 fwide
-wscanf
-fwscanf
-swscanf
-vwscanf
-vfwscanf
-vswscanf
-wprintf
 fwprintf
+fwscanf
+getwc
+getwchar
+mbrlen
+mbrtowc
+mbsinit
+mbsrtowcs
+mbstate
+putwc
+putwchar
 swprintf
-vwprintf
+swscanf
+ungetwc
 vfwprintf
+vfwscanf
 vswprintf
+vswscanf
+vwprintf
+vwscanf
+wcrtomb
+wcscat
+wcschr
+wcscmp
+wcscoll
+wcscpy
 wcsftime
+wcslen
+wcsncat
+wcsncmp
+wcspbrk
+wcsrchr
+wcsrtombs
+wcsspn
+wcsstr
+wcstod
+wcstof
+wcstok
 wcstol
+wcstold
 wcstoll
 wcstoul
 wcstoull
-wcstof
-wcstod
-wcstold
-
+wcsxfrm
+wctob
+WEOF
+wint
+wmemchr
+wmemcmp
+wmemcpy
+wmemmove
+wmemset
+wprintf
+wscanf
 
 # https://en.cppreference.com/w/cpp/header/cuchar
 cuchar
 mbrtoc
 rtomb
 
-
-
-
 # https://en.cppreference.com/w/cpp/header/clocale
+clocale
 ctype
-setlocale
 localeconv
-
-
-
+setlocale
 
 # https://en.cppreference.com/w/cpp/header/cfenv
-fenv_t
-fexcept_t
-feclearexcept
-fetestexcept
-feraiseexcept
-fegetexceptflag
-fesetexceptflag
-fegetround
-fesetround
-fegetenv
-fesetenv
-feholdexcept
-feupdateenv
+cfenv
 FE_ALL_EXCEPT
+FE_DFL_ENV
 FE_DIVBYZERO
+FE_DOWNWARD
 FE_INEXACT
 FE_INVALID
 FE_OVERFLOW
-FE_UNDERFLOW
-FE_DOWNWARD
 FE_TONEAREST
 FE_TOWARDZERO
+FE_UNDERFLOW
 FE_UPWARD
-FE_DFL_ENV
-
-
-
+feclearexcept
+fegetenv
+fegetexceptflag
+fegetround
+feholdexcept
+fenv_t
+feraiseexcept
+fesetenv
+fesetexceptflag
+fesetround
+fetestexcept
+feupdateenv
+fexcept_t
 
 # https://en.cppreference.com/w/cpp/header/cstdio
-stdio
-fpos
-stdin
-stdout
-stderr
-fopen
 bufsize
+clearerr
+cstdio
+fclose
+feof
+ferror
+fflush
+fgetc
+fgetpos
+fgets
+fopen
+fpos
+fprintf
+fputc
+fputs
+fread
+freopen
+fscanf
+fseek
+fsetpos
+ftell
+fwrite
+getc
+getchar
+gets
 iofbf
 iolbf
 ionbf
-freopen
-fclose
-fflush
-setbuf
-setvbuf
-fread
-fwrite
-fgetc
-getc
-fgets
-fputc
+perror
+printf
 putc
-fputs
-getchar
-gets
 putchar
 puts
-ungetc
 scanf
-fscanf
-sscanf
-vscanf
-vfscanf
-vsscanf
-printf
-fprintf
-sprintf
+setbuf
+setvbuf
 snprintf
-vprintf
-vfprintf
-vsprintf
-vsnprintf
-ftell
-fgetpos
-fseek
-fsetpos
-clearerr
-feof
-ferror
-perror
+sprintf
+sscanf
+stderr
+stdin
+stdio
+stdout
 tmpfile
 tmpnam
-
+ungetc
+vfprintf
+vfscanf
+vprintf
+vscanf
+vsnprintf
+vsprintf
+vsscanf
 
 # https://en.cppreference.com/w/cpp/header/cinttypes
+cinttypes
 imaxabs
 imaxdiv
-strtoimax
-strtoumax
-wcstoimax
-wcstoumax
 PRId # PRId8, etc...
 PRIi # PRIi8, etc...
-PRIu # PRIu8, etc...
 PRIo # PRIo8, etc...
+PRIu # PRIu8, etc...
 PRIx # PRIx8, etc...
 PRIX # PRIX8, etc...
 SCNd # SCNd8, etc...
 SCNi # SCNi8, etc...
-SCNu # SCNu8, etc...
 SCNo # SCNo8, etc...
+SCNu # SCNu8, etc...
 SCNx # SCNx8, etc...
+strtoimax
+strtoumax
+wcstoimax
+wcstoumax

@@ -517,6 +517,7 @@ mark
 marshal
 math
 max
+maxsplit
 mbcs
 mccabe
 MemoryError
@@ -628,6 +629,7 @@ py_compile
 pyclbr
 pycodestyle
 pydoc
+pyenv
 pydocstyle
 pyflakes
 pygments
@@ -636,7 +638,9 @@ pylint
 pypi
 pyproject
 pypy
+pyright
 pytest
+PYTHONHOME
 pyyaml
 queue
 quit
@@ -678,6 +682,7 @@ round
 rpartition
 rsplit
 rstrip
+Ruff
 runpy
 RuntimeError
 RuntimeWarning
@@ -783,6 +788,7 @@ tix
 tkinter
 token
 tokenize
+Tomli
 tool
 trace
 traceback
@@ -828,6 +834,7 @@ validate
 ValueError
 vars
 venv
+venvs
 version
 virtualenv
 virtualenvs
@@ -862,3 +869,4 @@ zipfile
 zipimport
 zlib
 zoneinfo
+__qualname__

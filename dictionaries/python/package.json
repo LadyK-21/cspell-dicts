@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-python",
-  "version": "3.0.6",
+  "version": "4.2.15",
   "description": "Python dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,19 +12,18 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "yarn run build-python && yarn run build-common",
-    "build-python": "cspell-tools-cli compile \"src/python/*.txt\" \"src/additional_words.txt\" --split --keep-raw-case --merge python -o .",
-    "build-common": "cspell-tools-cli compile \"src/common/*.txt\" --keep-raw-case --merge python-common -o .",
-    "test-dictionary": "cspell -v -c ./cspell-ext.json --local=en --languageId=python \"src/python/py*.txt\"",
-    "test-samples": "cspell -v -c ./cspell-ext.json \"samples/**/*.py\"",
-    "test": "yarn run test-dictionary && yarn run test-samples",
+    "build": "pnpm cspell-tools-cli build",
+    "test-dictionary": "cspell -c ./cspell-ext.json --locale=en --languageId=python \"src/python/py*.txt\"",
+    "test-samples": "cspell -c ./cspell-ext.json \"samples/**/*{.py,.txt}\"",
+    "test": "pnpm run test-dictionary && pnpm run test-samples",
     "update-python-lib": "./scripts/fetch-python.sh",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/python"
   },
   "keywords": [
     "cspell",
@@ -33,15 +33,18 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/python#readme",
+  "dependencies": {
+    "@cspell/dict-data-science": "workspace:^"
+  },
   "files": [
-    "python.txt.gz",
-    "python-common.txt.gz",
+    "dict/python.txt",
+    "dict/python-common.txt",
     "cspell-ext.json"
   ]
 }

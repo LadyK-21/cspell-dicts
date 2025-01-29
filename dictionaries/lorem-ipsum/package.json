@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-lorem-ipsum",
-  "version": "2.0.0",
+  "version": "4.0.4",
   "description": "Lorem-ipsum dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,14 +12,15 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cspell-tools compile \"dictionary.txt\" -o .",
-    "test": "head -n 1000 \"dictionary.txt\" | cspell -v -c ./cspell-ext.json --local=lorem --languageId=* stdin",
+    "build": "cspell-tools-cli build",
+    "test": "shx head -n 1000 src/dictionary.txt | cspell -c ./cspell-ext.json --locale=lorem --languageId=* stdin",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/lorem-ipsum"
   },
   "keywords": [
     "cspell",
@@ -26,14 +28,14 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/lorem-ipsum#readme",
   "files": [
-    "dictionary.txt.gz",
+    "dict/lorem.txt",
     "cspell-ext.json"
   ]
 }

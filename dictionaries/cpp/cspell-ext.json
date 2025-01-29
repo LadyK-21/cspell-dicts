@@ -1,19 +1,24 @@
 // cSpell Settings
 {
     "id": "cpp-dict",
-    "name": "C/C++ Dictionary",
+    "name": "C/C++",
     "description": "C/C++ Keywords and common library functions.",
     "readonly": true,
     // List of dictionary files to add to the global list of dictionaries
     "dictionaryDefinitions": [
         {
+            "name": "cpp-legacy",
+            "path": "./dict/cpp-legacy.txt",
+            "description": "Legacy C/C++ Keywords and common library functions."
+        },
+        {
             "name": "cpp",
-            "path": "./cpp.txt.gz",
+            "path": "./dict/cpp.txt",
             "description": "C/C++ Keywords and common library functions."
         },
         {
             "name": "cpp-refined",
-            "path": "./cpp-refined.txt.gz",
+            "path": "./dict/cpp-refined.txt",
             "description": "Refined list of C/C++ Keywords and common library functions."
         }
     ],
@@ -21,13 +26,13 @@
     // Generally left empty
     "dictionaries": [],
     // Language Rules to apply to matching files.
-    // Files are matched on `languageId` and `local`
+    // Files are matched on `languageId` and `locale`
     "languageSettings": [
         {
             // VSCode languageId. i.e. typescript, java, go, cpp, javascript, markdown, latex
             // * will match against any file type.
             "languageId": "c,cpp",
-            // Language local. i.e. en-US, de-AT, or ru. * will match all locals.
+            // Language locale. i.e. en-US, de-AT, or ru. * will match all locals.
             // Multiple locals can be specified like: "en, en-US" to match both English and English US.
             "locale": "*",
             // This can be removed once cspell-tools are upgraded to @cspell/cspell-tools.
@@ -48,7 +53,7 @@
                 }
             ],
             // List of dictionaries to enable by name in `dictionaryDefinitions`
-            "dictionaries": ["cpp", "cpp-refined"],
+            "dictionaries": ["cpp", "cpp-refined", "cpp-legacy"],
             // Dictionary definitions can also be supplied here. They are only used iff "languageId" and "locale" match.
             "dictionaryDefinitions": []
         }

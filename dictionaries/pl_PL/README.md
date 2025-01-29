@@ -1,4 +1,4 @@
-# Cspell Polish Dictionary
+# CSpell Polish Dictionary
 
 Polish dictionary for cspell.
 
@@ -10,13 +10,13 @@ Global Install and add to cspell global settings.
 
 ```sh
 npm install -g @cspell/dict-pl_pl
-cspell link add @cspell/dict-pl-pl
+cspell link add @cspell/dict-pl_pl
 ```
 
 ## Uninstall from cspell
 
 ```sh
-cspell link remove @cspell/dict-pl-pl
+cspell link remove @cspell/dict-pl_pl
 ```
 
 ## Manual Installation
@@ -48,6 +48,7 @@ The Hunspell source for this dictionary can be found in several repositories:
 
 ## License
 
-MIT
+LGPL-3.0+
 
 > Some packages may have other licenses included.
+> See [src/hunspell/license](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/src/hunspell/license)

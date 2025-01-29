@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-fullstack",
-  "version": "2.0.6",
+  "version": "3.2.3",
   "description": "Dictionary of terms used in Fullstack development.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,14 +12,15 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cspell-tools-cli compile --split \"fullstack.txt\" -o .",
-    "test": "cat \"fullstack.txt\" | cspell -v -c ./cspell-ext.json --local=* --languageId=php stdin",
+    "build": "cspell-tools-cli build",
+    "test": "shx cat \"src/fullstack.txt\" | cspell -c ./cspell-ext.json --locale=* --languageId=php stdin",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/fullstack"
   },
   "keywords": [
     "cspell",
@@ -27,14 +29,14 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/fullstack#readme",
   "files": [
-    "fullstack.txt.gz",
+    "dict/fullstack.txt",
     "cspell-ext.json"
   ]
 }
