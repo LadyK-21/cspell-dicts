@@ -1,4 +1,4 @@
-# Cspell Portuguese Dictionary
+# CSpell Portuguese Dictionary
 
 Portuguese dictionary for cspell.
 
@@ -48,6 +48,6 @@ The Hunspell source for this dictionary can be found:
 ## License
 
 MIT
-See: Portuguese-European.txt
+See: [Portuguese-European.dic license](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/pt_PT/src/hunspell/LICENSE)
 
 > Some packages may have other licenses included.

@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-pt-pt",
-  "version": "2.0.0",
+  "version": "3.0.4",
   "description": "Portuguese dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,13 +12,16 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cspell-tools compile-trie \"Portuguese-European.dic\" -o .",
-    "test": "hunspell-reader words -n 1000 \"Portuguese-European.dic\" | cspell -v -c ./cspell-ext.json --local=pt --languageId=* stdin",
-    "prepublishOnly": "echo pre-publish"
+    "build": "cspell-tools-cli build",
+    "build:conditional": "cspell-tools-cli build --conditional && pnpm gz",
+    "gz": "cspell-tools-cli gzip \"dict/*.trie\"",
+    "prepare:dictionary": "pnpm run gz",
+    "test": "cspell samples"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/pt_PT"
   },
   "keywords": [
     "cspell",
@@ -26,15 +30,15 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
-  "license": "MIT",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/pt_PT#readme",
   "files": [
-    "Portuguese-European.trie.gz",
+    "dict/Portuguese-European.trie.gz",
     "cspell-ext.json",
-    "Portuguese-European.txt"
+    "src/hunspell/LICENSE"
   ]
 }

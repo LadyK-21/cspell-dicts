@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-nb-no",
-  "version": "1.0.4",
+  "version": "2.0.4",
   "description": "Norwegian Bokmål dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,16 +12,19 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli compile --trie3 -x compound \"src/nb.dic\" -o .",
-    "test-words": "hunspell-reader words -n 1000 \"src/nb.dic\" | cspell -v -c ./cspell-ext.json \"--local=nb\" \"--languageId=*\" stdin",
+    "build": "cspell-tools-cli build && pnpm gz",
+    "build:conditional": "cspell-tools-cli build --conditional && pnpm gz",
+    "gz": "cspell-tools-cli gzip \"*.trie\"",
+    "test-words": "pipe-cmds \"hunspell-reader words -n 1000 \\\"src/nb.dic\\\"\" \"cspell -c ./cspell-ext.json \\\"--locale=nb\\\" \\\"--languageId=*\\\" stdin\"",
     "test-samples": "cspell \"samples/**\"",
-    "test": "yarn run test-words && yarn run test-samples",
+    "test": "pnpm run test-words && pnpm run test-samples",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "echo OK"
+    "prepare:dictionary": "pnpm run gz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/nb_NO"
   },
   "keywords": [
     "cspell",
@@ -30,7 +34,7 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"

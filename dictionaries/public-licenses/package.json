@@ -1,10 +1,11 @@
 {
   "name": "@cspell/dict-public-licenses",
-  "version": "1.0.5",
+  "version": "2.0.13",
   "description": "Common Public Licenses dictionary for cspell.",
   "private": false,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -12,20 +13,21 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "yarn run generate && yarn run compile",
+    "build": "pnpm run generate && pnpm run compile",
     "generate": "node ./src/extract.js",
-    "checksum": "shasum -c checksum.txt",
-    "compile": "cat source-files.txt | xargs cspell-tools-cli compile --merge public-licenses -o .",
-    "conditional-build": "yarn run --silent checksum || yarn run build && yarn run gen-checksum",
-    "test-dict": "cat source-files.txt | xargs cat | cspell -v -c ./cspell-ext.json --local=en --languageId=* stdin",
-    "gen-checksum": "cat source-files.txt source-dependencies.txt | sort -u | xargs shasum > checksum.txt",
-    "test": "yarn run test-dict",
+    "checksum": "cspell-tools-cli shasum -c checksum.txt",
+    "compile": "cspell-tools-cli build",
+    "conditional-build": "pnpm run --silent checksum || pnpm run build && pnpm run gen-checksum",
+    "test-dict": "cspell -c ./cspell-ext.json --locale=en --languageId=* --file-list source-files.txt",
+    "gen-checksum": "cspell-tools-cli shasum -u checksum.txt --list-file source-files.txt source-dependencies.txt",
+    "test": "pnpm run test-dict",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/public-licenses"
   },
   "keywords": [
     "cspell",
@@ -34,14 +36,14 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/public-licenses#readme",
   "devDependencies": {
-    "spdx-license-ids": "^3.0.11"
+    "spdx-license-ids": "^3.0.21"
   },
   "files": [
     "public-licenses.txt.gz",

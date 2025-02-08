@@ -1,24 +1,30 @@
 {
     "id": "node",
     "name": "Node.js",
-    "description": "Node.js dictionary for cspell.",
+    "description": "Node.js dictionary.",
     "readonly": true,
     "dictionaryDefinitions": [
         {
             "name": "node",
-            "path": "./node.txt.gz",
-            "description": "Node.js dictionary for cspell."
+            "path": "./dict/node.txt",
+            "description": "Node.js dictionary."
         }
     ],
     "dictionaries": [],
     "languageSettings": [
         {
-            "languageId": "javascript,typescript",
+            "languageId": "javascript,typescript,javascriptreact,typescriptreact",
             "locale": "*",
             "includeRegExpList": [],
             "ignoreRegExpList": [],
             "dictionaries": ["node"],
             "dictionaryDefinitions": []
+        }
+    ],
+    "overrides": [
+        {
+            "filename": "**/package.json",
+            "dictionaries": ["node"]
         }
     ]
 }

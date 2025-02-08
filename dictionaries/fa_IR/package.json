@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-fa-ir",
-  "version": "2.0.0",
+  "version": "4.0.3",
   "description": "Persian dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,13 +12,17 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cspell-tools compile-trie \"hunspell/fa-IR.dic\" -o .",
-    "test": "hunspell-reader words -n 10000 \"hunspell/fa-IR.dic\" |  cspell -v --local=fa --languageId=* stdin",
-    "prepublishOnly": "echo pre-publish"
+    "build": "cspell-tools-cli build",
+    "build:conditional": "cspell-tools-cli build --conditional && pnpm gz",
+    "gz": "cspell-tools-cli gzip \"*.trie\"",
+    "test": "cspell samples --no-progress",
+    "prepublishOnly": "echo pre-publish",
+    "prepare:dictionary": "pnpm gz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/fa_IR"
   },
   "keywords": [
     "cspell",
@@ -26,8 +31,8 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
-  "license": "MIT",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },

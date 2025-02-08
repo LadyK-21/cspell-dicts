@@ -1,4 +1,4 @@
-# Cspell Czech Dictionary
+# CSpell Czech Dictionary
 
 Czech dictionary for cspell.
 
@@ -51,4 +51,4 @@ MIT
 
 > Some packages may have other licenses included.
 
-See also: [Czech.txt](Czech.txt)
+See also: [Czech.txt](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/cs_CZ/Czech.txt)

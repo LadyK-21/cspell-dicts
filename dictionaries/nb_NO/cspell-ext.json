@@ -3,27 +3,27 @@
     "id": "nb-no",
     "version": "0.2",
     "name": "Norwegian Bokmål",
-    "description": "Norwegian Bokmål dictionary for cspell.",
+    "description": "Norwegian Bokmål dictionary.",
     "readonly": true,
     // List of dictionary files to add to the global list of dictionaries
     "dictionaryDefinitions": [
         {
             "name": "nb-no",
             "path": "./nb.trie.gz",
-            "description": "Norwegian Bokmål dictionary for cspell."
+            "description": "Norwegian Bokmål dictionary."
         }
     ],
     // Dictionaries to always be used.
     // Generally left empty
     "dictionaries": [],
     // Language Rules to apply to matching files.
-    // Files are matched on `languageId` and `local`
+    // Files are matched on `languageId` and `locale`
     "languageSettings": [
         {
             // VSCode languageId. i.e. typescript, java, go, cpp, javascript, markdown, latex
             // * will match against any file type.
             "languageId": "*",
-            // Language local. i.e. en-US, de-AT, or ru. * will match all locals.
+            // Language locale. i.e. en-US, de-AT, or ru. * will match all locals.
             // Multiple locals can be specified like: "en, en-US" to match both English and English US.
             "locale": "nb, nb-no",
             // By default the whole text of a file is included for spell checking

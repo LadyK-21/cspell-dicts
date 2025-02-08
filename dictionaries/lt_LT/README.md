@@ -1,4 +1,4 @@
-# Cspell Lithuanian Dictionary
+# CSpell Lithuanian Dictionary
 
 Lithuanian dictionary for cspell. Based on ispell-lt package, version 1.3.
 
@@ -47,6 +47,6 @@ The Hunspell source for this dictionary can be found:
 
 ## License
 
-MIT
+BSD-3-Clause
 
 > Some packages may have other licenses included.

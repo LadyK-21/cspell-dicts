@@ -1,4 +1,4 @@
-# Cspell Scientific Terms US Dictionary
+# CSpell Scientific Terms US Dictionary
 
 Scientific Terms US dictionary for cspell.
 
@@ -47,4 +47,4 @@ MIT
 
 > Some packages may have other licenses included.
 
-[//]: # 'cspell:ignore Petrie’s'
+<!--- cspell:ignore Petrie’s --->

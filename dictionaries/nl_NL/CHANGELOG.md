@@ -3,6 +3,75 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.3](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.3.2...@cspell/dict-nl-nl@2.3.3) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Update package git url ([#3667](https://github.com/streetsidesoftware/cspell-dicts/issues/3667)) ([629c7d0](https://github.com/streetsidesoftware/cspell-dicts/commit/629c7d0a5e1bacad1d3874b1f8372edc3494ef97))
+
+## [2.3.2](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.3.1...@cspell/dict-nl-nl@2.3.2) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Fix the git repository URL ([#3665](https://github.com/streetsidesoftware/cspell-dicts/issues/3665)) ([ac050b6](https://github.com/streetsidesoftware/cspell-dicts/commit/ac050b697d57820109995e92fac5ccc32ced1723))
+
+## [2.3.1](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.3.0...@cspell/dict-nl-nl@2.3.1) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Sign all dictionaries ([#3661](https://github.com/streetsidesoftware/cspell-dicts/issues/3661)) ([6b8d560](https://github.com/streetsidesoftware/cspell-dicts/commit/6b8d560cf51a593458ce42bca415859f872cfc97))
+
+## [2.3.0](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.10...@cspell/dict-nl-nl@2.3.0) (2023-11-06)
+
+
+### Features
+
+* Update dictionary sources ([#2705](https://github.com/streetsidesoftware/cspell-dicts/issues/2705)) ([27ad9de](https://github.com/streetsidesoftware/cspell-dicts/commit/27ad9de120fc71bc1b9a2aacc4407c423aeee2fd))
+
+
+### Updates and Bug Fixes
+
+* Workflow Bot -- Build Dictionaries ([#2707](https://github.com/streetsidesoftware/cspell-dicts/issues/2707)) ([2f4fb72](https://github.com/streetsidesoftware/cspell-dicts/commit/2f4fb72ad0b370c78bdbc19f38ee6a452e767010))
+
+## [2.2.10](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.9...@cspell/dict-nl-nl@2.2.10) (2023-10-11)
+
+
+### Updates and Bug Fixes
+
+* Make license documentation consistent ([#2628](https://github.com/streetsidesoftware/cspell-dicts/issues/2628)) ([0dfc5e9](https://github.com/streetsidesoftware/cspell-dicts/commit/0dfc5e918d475a9694ce64bdc74c473d6097af62))
+
+## [2.2.9](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.8...@cspell/dict-nl-nl@2.2.9) (2023-07-19)
+
+
+### Updates and Bug Fixes
+
+* Update dictionary build script and re-build ([#2334](https://github.com/streetsidesoftware/cspell-dicts/issues/2334)) ([0847cfc](https://github.com/streetsidesoftware/cspell-dicts/commit/0847cfc9623018940e7761e08eeba0ec7c0a320e))
+
+## [2.2.8](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.7...@cspell/dict-nl-nl@2.2.8) (2022-12-17)
+
+
+### Miscellaneous
+
+* clarify where files should be stored. ([#1698](https://github.com/streetsidesoftware/cspell-dicts/issues/1698)) ([6567bc6](https://github.com/streetsidesoftware/cspell-dicts/commit/6567bc62130404cb32945bdcc3bf07316c839396))
+
+## [2.2.7](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.6...@cspell/dict-nl-nl@2.2.7) (2022-10-01)
+
+
+### Updates and Bug Fixes
+
+* Fix Dutch suggestion edit costs. ([#1498](https://github.com/streetsidesoftware/cspell-dicts/issues/1498)) ([0396dd8](https://github.com/streetsidesoftware/cspell-dicts/commit/0396dd8f811b45e0cd5287f559d29eb09489c7be))
+
+## [2.2.6](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.5...@cspell/dict-nl-nl@2.2.6) (2022-08-19)
+
+
+### Miscellaneous
+
+* do not store `.trie.gz` files. ([#1361](https://github.com/streetsidesoftware/cspell-dicts/issues/1361)) ([2de0b0d](https://github.com/streetsidesoftware/cspell-dicts/commit/2de0b0df4b8addfd69e2e6899c05f8b502799b7c))
+* force overwrite in prepare ([#1364](https://github.com/streetsidesoftware/cspell-dicts/issues/1364)) ([5eec47e](https://github.com/streetsidesoftware/cspell-dicts/commit/5eec47e223f1dd6370fcbc3c1b6b0361c92bbddf))
+
 ## [2.2.5](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-nl-nl@2.2.4...@cspell/dict-nl-nl@2.2.5) (2022-04-28)
 
 **Note:** Version bump only for package @cspell/dict-nl-nl

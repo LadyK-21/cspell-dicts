@@ -2,22 +2,22 @@ name: Lint
 on:
   pull_request:
     paths:
-      - ".eslint*"
       - .prettier*"
-      - "**/*.js"
-      - "**/*.md"
-      - "**/*.json"
-      - "**/*.yml"
-      - "**/*.yaml"
+      - '**/*.js'
+      - '**/*.mjs'
+      - '**/*.md'
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
   push:
     paths:
-      - ".eslint*"
       - .prettier*"
-      - "**/*.js"
-      - "**/*.md"
-      - "**/*.json"
-      - "**/*.yml"
-      - "**/*.yaml"
+      - '**/*.js'
+      - '**/*.mjs'
+      - '**/*.md'
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
     branches:
       - main
 
@@ -28,13 +28,13 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          cache: yarn
+      - uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./.github/actions/setup
 
       - name: Restore CSpell cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4.2.0
         with:
           key: cspell-cache-${{ runner.os }}-lint-${{ hashFiles('**/*.ts', '**/*.md') }}
           path: |
@@ -43,5 +43,5 @@ jobs:
             cspell-cache-${{ runner.os }}-lint-
             cspell-cache-${{ runner.os }}-
 
-      - run: yarn
-      - run: yarn run lint-ci
+      - run: pnpm i
+      - run: pnpm run lint

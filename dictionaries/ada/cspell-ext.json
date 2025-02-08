@@ -2,13 +2,13 @@
     "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/v5.18.4/cspell.schema.json",
     "version": "0.2",
     "id": "ada",
-    "name": "Ada Language",
+    "name": "Ada",
     "description": "Ada Language Dictionary",
     "readonly": true,
     "dictionaryDefinitions": [
         {
             "name": "ada",
-            "path": "./ada.txt.gz",
+            "path": "./dict/ada.txt",
             "description": "Ada Language Dictionary"
         }
     ],
@@ -20,7 +20,7 @@
             "patterns": [
                 {
                     "name": "ada word break",
-                    "pattern": "/(?<=\\w)['](?=\\w)/g",
+                    "pattern": "/(?<=\\w)['](?=\\w)(?!((?<=n')t|ve|d|ll|m|s|re)\\b)/g",
                     "description": "Ada Word Break"
                 },
                 {

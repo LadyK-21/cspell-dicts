@@ -1,8 +1,15 @@
-# Cspell Win32 Dictionary
+# CSpell Win32 Dictionary
 
 Win32 dictionary for cspell.
 
 This is a pre-built dictionary for use with cspell.
+
+## Requirements
+
+| Tool                                                                                                                                 | Version |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| [cspell](https://github.com/streetsidesoftware/cspell)                                                                               | `>= 6`  |
+| [Code Spell Checker - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `>= 2`  |
 
 ## Installation
 
@@ -27,7 +34,15 @@ Manual installation is useful if you want to include this dictionary as part of 
 npm i @cspell/dict-win32
 ```
 
-The `cspell-ext.json` file in this package should be added to the import section in your `cspell.json` file.
+The `cspell-ext.json` file in this package should be added to the import section in your CSpell configuration file.
+
+**_`cspell.config.yaml`_**
+
+```yaml
+import: ['@cspell/dict-win32/cspell-ext.json']
+```
+
+**`cspell.json`**
 
 ```javascript
 {
@@ -36,6 +51,26 @@ The `cspell-ext.json` file in this package should be added to the import section
     // …
 }
 ```
+
+## Enable the Dictionary
+
+By default the `win32` dictionary is enabled for `C` and `C++` file types. To enable it for other file types, it is necessary to add it to the `dictionaries` section of the configuration or include it as an inline CSpell directive: `cspell:dictionaries win32`.
+
+Example: `example.md`
+
+````markdown
+Sample Code:
+
+```cpp
+    // Parse the command line parameters
+    int argc;
+    LPWSTR* argv = CommandLineToArgvW(GetCommandLineW(), &argc);
+    pSample->ParseCommandLineArgs(argv, argc);
+    LocalFree(argv);
+```
+
+<!--- cspell:dictionaries win32 --->
+````
 
 # Dictionary Development
 
