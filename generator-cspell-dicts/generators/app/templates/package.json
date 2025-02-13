@@ -4,7 +4,8 @@
   "description": "<%= description %> -- Private until verified",
   "private": true,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -12,14 +13,14 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli <%= command %> \"<%= srcFile %>\" -o .",
-    "test": "<%= srcFileReader %> \"<%= srcFile %>\" | cspell -v -c ./cspell-ext.json \"--local=<%= local %>\" \"--languageId=<%= languageId %>\" stdin",
-    "prepublishOnly": "echo pre-publish",
-    "prepare": "<%= prepareScript %>"
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli build",
+    "test": "<%= srcFileReader %> \"<%= srcFile %>\" | cspell -c ./cspell-ext.json \"--locale=<%= locale %>\" \"--languageId=<%= languageId %>\" stdin",
+    "prepublishOnly": "<%= prepublishOnlyScript %>",
+    "prepare:dictionary": "<%= prepareScript %>"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts"
   },
   "keywords": [
     "cspell",
@@ -29,7 +30,8 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
@@ -38,7 +40,7 @@
   "devDependencies": {},
   "dependencies": {},
   "files": [
-    "<%= dstFileName %>",
+    "<%= dstFullFileName %>",
     "cspell-ext.json",
     "*.js",
     "*.d.ts"

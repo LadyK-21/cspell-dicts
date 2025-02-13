@@ -3,24 +3,25 @@
   "version": "0.1.1",
   "description": "Generate cspell dictionary subprojects.",
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts",
+  "type": "module",
   "private": true,
   "author": "Jason Dent <jason@streetsidesoftware.nl>",
   "files": [
     "generators"
   ],
-  "main": "generators/index.js",
+  "main": "generators/app/index.js",
+  "bin": {
+    "run": "./run.js"
+  },
   "keywords": [
     "cspell dictionary generator",
     "yeoman-generator"
   ],
-  "devDependencies": {
-    "yo": "^4.3.0"
-  },
   "dependencies": {
-    "chalk": "^4.1.2",
-    "mkdirp": "^1.0.4",
-    "yeoman-generator": "^5.6.1",
-    "yosay": "^2.0.2"
+    "chalk": "^5.4.1",
+    "yeoman-environment": "^4.4.3",
+    "yeoman-generator": "^7.4.0",
+    "yosay": "^3.0.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -38,9 +39,10 @@
   },
   "cspell": {
     "words": [
-      "yosay",
+      "appname",
+      "mkdir",
       "subprojects",
-      "mkdir"
+      "yosay"
     ]
   }
 }

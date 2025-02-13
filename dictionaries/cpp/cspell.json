@@ -1,17 +1,35 @@
 {
-    "files": ["**/*.{md,txt}"],
-    "ignorePaths": ["/src/cpp.txt"],
-    "dictionaries": ["cpp", "cpp-refined"],
-    "import": ["./cspell-ext.json"],
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "ignorePaths": [
+        "/src/cpp.txt",
+        "/src/cpp-legacy.txt",
+        "dict"
+    ],
+    "dictionaries": [
+        "cpp",
+        "cpp-refined",
+        "cpp-legacy"
+    ],
+    "import": [
+        "./cspell-ext.json"
+    ],
     "ignoreWords": [],
     "overrides": [
         {
             "filename": "src/**",
-            "dictionaries": ["cpp", "cpp-refined"]
+            "dictionaries": [
+                "cpp",
+                "cpp-refined"
+            ]
         },
         {
-            "filename": "src/cpp.txt",
+            "filename": "src/cpp*.txt",
             "enabled": false
         }
+    ],
+    "enableFiletypes": [
+        "diff"
     ]
 }

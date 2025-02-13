@@ -1,9 +1,0 @@
-./en_US.trie.gz
-./source-dependencies.txt
-./source-files.txt
-./src/additional_words.txt
-./src/aoo-mozilla-en-dict/en_US.aff
-./src/aoo-mozilla-en-dict/en_US.dic
-./src/en_US.txt
-./src/hunspell/en_US.aff
-./src/hunspell/en_US.dic

@@ -1,33 +1,26 @@
-// cSpell Settings
 {
     "id": "python",
     "version": "0.2",
     "readonly": true,
-    "name": "Python Dictionary",
+    "name": "Python",
     "description": "Python Keyword Dictionary",
-    // List of dictionary files to add to the global list of dictionaries
     "dictionaryDefinitions": [
         {
             "name": "python",
-            "path": "./python.txt.gz",
+            "path": "./dict/python.txt",
             "description": "Python Dictionary"
         },
         {
             "name": "python-common",
-            "path": "./python-common.txt.gz",
+            "path": "./dict/python-common.txt",
             "description": "Python Common Terms Dictionary"
         }
     ],
-    // Dictionaries to always be used.
-    // Generally left empty
+    "import": ["@cspell/dict-data-science"],
     "dictionaries": [],
-    // Language Rules to apply to matching files.
-    // Files are matched on `languageId` and `local`
     "languageSettings": [
         {
-            // Matching Language
             "languageId": "python",
-            // Apply settings
             "dictionaries": ["python", "python-common"],
             "ignoreRegExpList": ["ignore_string_literal_prefix"],
             "patterns": [
@@ -78,6 +71,12 @@
                     ]
                 }
             ]
+        }
+    ],
+    "overrides": [
+        {
+            "filename": "**/constraints.txt",
+            "dictionaries": ["python", "python-common"]
         }
     ]
 }

@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-docker",
-  "version": "1.1.0",
+  "version": "1.1.12",
   "description": "Docker dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,14 +12,15 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli compile \"src/docker-words.txt\" -o .",
-    "test": "head -n 1000 \"src/docker-words.txt\" | cspell -v -c ./cspell-ext.json \"--local=*\" \"--languageId=dockerfile\" stdin",
+    "build": "cspell-tools-cli build",
+    "test": "shx head -n 1000 \"src/docker-words.txt\" | cspell -c ./cspell-ext.json \"--locale=*\" \"--languageId=dockerfile\" stdin",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/docker"
   },
   "keywords": [
     "cspell",
@@ -27,7 +29,7 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"

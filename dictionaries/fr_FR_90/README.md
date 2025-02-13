@@ -1,4 +1,4 @@
-# Cspell Français Réforme 1990 Dictionary
+# CSpell Français Réforme 1990 Dictionary
 
 Français Réforme 1990 dictionary for cspell.
 
@@ -44,3 +44,17 @@ npm run build
 MIT
 
 > Some packages may have other licenses included.
+
+<!--- @@inject: ../../static/footer.md --->
+
+<br/>
+
+---
+
+<p align="center">
+Brought to you by <a href="https://streetsidesoftware.com" title="Street Side Software">
+<img width="16" alt="Street Side Software Logo" src="https://i.imgur.com/CyduuVY.png" /> Street Side Software
+</a>
+</p>
+
+<!--- @@inject-end: ../../static/footer.md --->

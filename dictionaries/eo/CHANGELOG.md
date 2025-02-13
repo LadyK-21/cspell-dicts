@@ -22,6 +22,57 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [3.0.5](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@3.0.4...@cspell/dict-eo@3.0.5) (2024-12-30)
+
+
+### Updates and Bug Fixes
+
+* Adjust dictionary names ([#3958](https://github.com/streetsidesoftware/cspell-dicts/issues/3958)) ([8a96533](https://github.com/streetsidesoftware/cspell-dicts/commit/8a96533bec21280103740868b81559437c413501))
+
+## [3.0.4](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@3.0.3...@cspell/dict-eo@3.0.4) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Update package git url ([#3667](https://github.com/streetsidesoftware/cspell-dicts/issues/3667)) ([629c7d0](https://github.com/streetsidesoftware/cspell-dicts/commit/629c7d0a5e1bacad1d3874b1f8372edc3494ef97))
+
+## [3.0.3](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@3.0.2...@cspell/dict-eo@3.0.3) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Fix the git repository URL ([#3665](https://github.com/streetsidesoftware/cspell-dicts/issues/3665)) ([ac050b6](https://github.com/streetsidesoftware/cspell-dicts/commit/ac050b697d57820109995e92fac5ccc32ced1723))
+
+## [3.0.2](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@3.0.1...@cspell/dict-eo@3.0.2) (2024-10-11)
+
+
+### Updates and Bug Fixes
+
+* Sign all dictionaries ([#3661](https://github.com/streetsidesoftware/cspell-dicts/issues/3661)) ([6b8d560](https://github.com/streetsidesoftware/cspell-dicts/commit/6b8d560cf51a593458ce42bca415859f872cfc97))
+
+## [3.0.1](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@3.0.0...@cspell/dict-eo@3.0.1) (2023-07-20)
+
+
+### Updates and Bug Fixes
+
+* Fix EO build issue. ([#2355](https://github.com/streetsidesoftware/cspell-dicts/issues/2355)) ([394a185](https://github.com/streetsidesoftware/cspell-dicts/commit/394a185ba5a1f632064606b88c9541b946d00fbd))
+
+## [3.0.0](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@2.0.0...@cspell/dict-eo@3.0.0) (2023-07-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Esperanto - Update License and rebuild ([#2354](https://github.com/streetsidesoftware/cspell-dicts/issues/2354))
+
+### Features
+
+* Esperanto - Update License and rebuild ([#2354](https://github.com/streetsidesoftware/cspell-dicts/issues/2354)) ([156fa56](https://github.com/streetsidesoftware/cspell-dicts/commit/156fa56a69c4d81230136740a0046c1799834a9c))
+
+
+### Updates and Bug Fixes
+
+* Update dictionary ([774971b](https://github.com/streetsidesoftware/cspell-dicts/commit/774971bcc3436c6906efd38785397f98145e3b06))
+
 ## [1.0.9](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-eo@1.0.8...@cspell/dict-eo@1.0.9) (2021-03-16)
 
 **Note:** Version bump only for package @cspell/dict-eo

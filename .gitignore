@@ -41,9 +41,12 @@ tmp
 temp
 .DS_Store
 
-# gz files
+# Compressed Dictionaries and Binary files
 **/packages/*/*.txt.gz
 **/dictionaries/*/*.txt.gz
+**/dictionaries/*/*.trie.gz
+**/dictionaries/*/dict/*.txt.gz
+**/dictionaries/*/dict/*.trie.gz
 *.tgz
 
 #vs-code

@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-en-gb-mit",
-  "version": "2.0.1",
+  "version": "2.1.29",
   "description": "British English dictionary for cspell with MIT License.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,19 +12,21 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "yarn run compile",
-    "checksum": "shasum -c checksum.txt",
-    "compile": "cat source-files.txt | xargs cspell-tools-cli compile --trie3 -x compound --merge en_GB -o . && yarn run gen-checksum",
-    "conditional-build": "yarn run --silent checksum || yarn run build",
-    "gen-checksum": "cat source-files.txt source-dependencies.txt | sort -u | xargs shasum > checksum.txt",
+    "build": "pnpm run compile",
+    "checksum": "cspell-tools-cli shasum -c checksum.txt",
+    "compile": "cspell-tools-cli build && pnpm run gen-checksum",
+    "conditional-build": "pnpm run --silent checksum || pnpm run build",
+    "gen-checksum": "cspell-tools-cli shasum -u checksum.txt --list-file source-files.txt source-dependencies.txt",
+    "prepare:dictionary": "cspell-tools-cli gzip \"*.trie\"",
     "prepublishOnly": "echo pre-publish",
-    "test-dict": "head -n 1000 \"./src/wordsEnGb.txt\" | cspell -v -c ./cspell-ext.json --local=en_gb --languageId=* stdin",
-    "test-text": "cspell -v -c ./cspell-ext.json --local=en_gb --languageId=* \"tests/*.txt\"",
-    "test": "yarn run test-dict && yarn run test-text"
+    "test-dict": "shx head -n 1000 \"./src/wordsEnGb.txt\" | cspell -c ./cspell-ext.json --locale=en_gb --languageId=* stdin",
+    "test-text": "cspell -c ./cspell-ext.json --locale=en_gb --languageId=* \"tests/*.txt\"",
+    "test": "pnpm run test-dict && pnpm run test-text"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/en_GB-MIT"
   },
   "keywords": [
     "cspell",
@@ -32,7 +35,7 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
@@ -44,5 +47,8 @@
   ],
   "directories": {
     "test": "tests"
+  },
+  "devDependencies": {
+    "@cspell/dict-en-shared": "workspace:^"
   }
 }

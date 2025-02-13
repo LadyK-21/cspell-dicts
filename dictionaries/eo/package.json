@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-eo",
-  "version": "2.0.0",
+  "version": "3.0.5",
   "description": "Esperanto dictionary for cspell.",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,13 +12,19 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools compile-trie \"eo.dic\" -o .",
-    "test": "hunspell-reader words -n 1000 \"eo.dic\" | cspell -v -c ./cspell-ext.json \"--local=eo\" \"--languageId=*\" stdin",
+    "build": "cspell-tools-cli build && pnpm gz",
+    "build:conditional": "cspell-tools-cli build --conditional && pnpm gz",
+    "test:dic": "pipe-cmds \"hunspell-reader words -n 1000 \\\"src/hunspell/eo.dic\\\"\" \"cspell -c ./cspell-ext.json \\\"--locale=eo\\\" \\\"--languageId=*\\\" stdin\"",
+    "test:samples": "cspell samples",
+    "test": "pnpm test:dic && pnpm test:samples",
+    "gz": "cspell-tools-cli gzip \"*.trie\"",
+    "prepare:dictionary": "pnpm gz",
     "prepublishOnly": "echo pre-publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/eo"
   },
   "keywords": [
     "cspell",
@@ -26,15 +33,15 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Street Side Software",
-  "license": "GPL-2.0-or-later",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
+  "license": "GPL-3.0+",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/eo#readme",
   "files": [
     "eo.trie.gz",
-    "eo_license.txt",
+    "src/hunspell/eo_license.txt",
     "cspell-ext.json"
   ]
 }

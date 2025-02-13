@@ -1,9 +1,10 @@
 {
   "name": "@cspell/dict-mnemonics",
-  "version": "2.0.1",
+  "version": "3.0.4",
   "description": "i86 Mnemonics dictionary for cspell",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./cspell-ext.json",
@@ -11,14 +12,15 @@
     "./cspell-ext.json": "./cspell-ext.json"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools compile \"src/mnemonics.txt\" -o .",
-    "test": "head -n 1000 \"src/mnemonics.txt\" | cspell -v -c ./cspell-ext.json \"--local=*\" \"--languageId=cpp\" stdin",
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli compile --keep-raw-case --use-legacy-splitter src/mnemonics.txt --no-compress -o ./dict",
+    "test": "shx head -n 1000 src/mnemonics.txt | cspell -c ./cspell-ext.json \"--locale=*\" \"--languageId=cpp\" stdin",
     "prepublishOnly": "echo pre-publish",
-    "prepare": "yarn run build"
+    "prepare:dictionary": "pnpm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+    "url": "https://github.com/streetsidesoftware/cspell-dicts",
+    "directory": "dictionaries/mnemonics"
   },
   "keywords": [
     "cspell",
@@ -27,14 +29,14 @@
     "dictionary",
     "spelling"
   ],
-  "author": "Jason Dent",
+  "author": "Street Side Software <support@streetsidesoftware.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/streetsidesoftware/cspell-dicts/issues"
   },
   "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/mnemonics#readme",
   "files": [
-    "mnemonics.txt.gz",
+    "dict/mnemonics.txt",
     "cspell-ext.json",
     "*.js",
     "*.d.ts"

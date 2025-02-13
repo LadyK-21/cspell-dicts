@@ -1,4 +1,4 @@
-# Cspell Spanish Dictionary
+# CSpell Spanish Dictionary
 
 Spanish dictionary for cspell.
 
@@ -41,7 +41,7 @@ npm run build
 
 ## Adding Words
 
-Please add any words to [src/additional_words.txt](./src/additional_words.txt) by making a pull request.
+Please add any words to [src/additional_words.txt](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/es_ES/src/additional_words.txt) by making a pull request.
 
 ## Resources
 
@@ -51,6 +51,7 @@ The Hunspell source for this dictionary can be found:
 
 ## License
 
-MIT
+LGPL-3.0
 
 > Some packages may have other licenses included.
+> See [src/hunspell/license](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/src/hunspell/license)

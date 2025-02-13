@@ -43,8 +43,22 @@ npm run build
 
 ## Adding Words
 
-Please add any words to [src/additional_words.txt](./src/additional_words.txt) by making a pull request.
+Please add any words to [src/additional_words.txt](https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/en_GB-MIT/src/additional_words.txt) by making a pull request.
 
 ## License
 
 MIT
+
+<!--- @@inject: ../../static/footer.md --->
+
+<br/>
+
+---
+
+<p align="center">
+Brought to you by <a href="https://streetsidesoftware.com" title="Street Side Software">
+<img width="16" alt="Street Side Software Logo" src="https://i.imgur.com/CyduuVY.png" /> Street Side Software
+</a>
+</p>
+
+<!--- @@inject-end: ../../static/footer.md --->
