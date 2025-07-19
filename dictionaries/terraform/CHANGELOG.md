@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.1.4](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-terraform@1.1.3...@cspell/dict-terraform@1.1.4) (2025-07-19)
+
+
+### Updates and Bug Fixes
+
+* [terraform] Add missing Terraform related terms ([#4609](https://github.com/LadyK-21/cspell-dicts/issues/4609)) ([a1bc3d3](https://github.com/LadyK-21/cspell-dicts/commit/a1bc3d32d476c0f07daa37abc8ad8eb0e2657ec6))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Make sure files of type `tf` use `terraform` dict ([#4137](https://github.com/LadyK-21/cspell-dicts/issues/4137)) ([a6e896b](https://github.com/LadyK-21/cspell-dicts/commit/a6e896ba4775c11dfac83cd61e991e1a01a21692))
+
 ## [1.1.3](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-terraform@1.1.2...@cspell/dict-terraform@1.1.3) (2025-07-09)
 
 
