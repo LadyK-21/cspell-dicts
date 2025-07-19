@@ -30,6 +30,16 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [3.0.7](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-es-es@3.0.6...@cspell/dict-es-es@3.0.7) (2025-07-19)
+
+
+### Updates and Bug Fixes
+
+* [es] Add missing Spanish terms ([#4622](https://github.com/LadyK-21/cspell-dicts/issues/4622)) ([f5b262f](https://github.com/LadyK-21/cspell-dicts/commit/f5b262f8c903417273ba05a413f5453244127860))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Update README.md ([#4660](https://github.com/LadyK-21/cspell-dicts/issues/4660)) ([e0f9c43](https://github.com/LadyK-21/cspell-dicts/commit/e0f9c43f2dc0170a118dfe3a5008d3cf017e36ce))
+* Workflow Bot -- Build Dictionaries ([#4626](https://github.com/LadyK-21/cspell-dicts/issues/4626)) ([8ad67e9](https://github.com/LadyK-21/cspell-dicts/commit/8ad67e97f5b0c44a58d5699eb3c11921b0de9d44))
+
 ## [3.0.6](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-es-es@3.0.5...@cspell/dict-es-es@3.0.6) (2025-07-19)
 
 
