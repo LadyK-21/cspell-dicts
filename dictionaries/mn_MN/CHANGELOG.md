@@ -1,5 +1,23 @@
 # Change Log
 
+## [1.3.0](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-mn-mn@1.2.2...@cspell/dict-mn-mn@1.3.0) (2025-07-19)
+
+
+### Features
+
+* Adding Mongolian language ([#4109](https://github.com/LadyK-21/cspell-dicts/issues/4109)) ([ae8745d](https://github.com/LadyK-21/cspell-dicts/commit/ae8745deab0a57a45e59cbd32373113809710982))
+* Ignore Forbidden Words ([#4289](https://github.com/LadyK-21/cspell-dicts/issues/4289)) ([147e72b](https://github.com/LadyK-21/cspell-dicts/commit/147e72b3a2acbf54013fc46f36f18cb17b8d6ba7))
+* update mn_MN dictionary package and add download script ([83b2d58](https://github.com/LadyK-21/cspell-dicts/commit/83b2d583166512b05c572f92b28ad05e1843ba84))
+
+
+### Updates and Bug Fixes
+
+* fix package.json information ([cf96cac](https://github.com/LadyK-21/cspell-dicts/commit/cf96cace738432c4fb006460f5ca0f1b79e38a8b))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Update README.md ([#4660](https://github.com/LadyK-21/cspell-dicts/issues/4660)) ([e0f9c43](https://github.com/LadyK-21/cspell-dicts/commit/e0f9c43f2dc0170a118dfe3a5008d3cf017e36ce))
+* Use Mongolian dictionary from `wooorm/dictionaries` ([#4116](https://github.com/LadyK-21/cspell-dicts/issues/4116)) ([77932b2](https://github.com/LadyK-21/cspell-dicts/commit/77932b27b40283862aa04f5df7bd269492a3c46f))
+* Workflow Bot -- Build Dictionaries ([#4114](https://github.com/LadyK-21/cspell-dicts/issues/4114)) ([c37dae7](https://github.com/LadyK-21/cspell-dicts/commit/c37dae7d20b8448ff92361dd72f65c10701be616))
+
 ## [1.2.2](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-mn-mn@1.2.1...@cspell/dict-mn-mn@1.2.2) (2025-07-19)
 
 
