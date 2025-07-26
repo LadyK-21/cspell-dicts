@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.20](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-python@4.2.19...@cspell/dict-python@4.2.20) (2025-07-26)
+
+
+### Updates and Bug Fixes
+
+* Add memo and nano to software terms ([#4165](https://github.com/LadyK-21/cspell-dicts/issues/4165)) ([aaf8998](https://github.com/LadyK-21/cspell-dicts/commit/aaf899837c3f0fd8df32a679b956bc7ad99a2666))
+* add tool names ([#4326](https://github.com/LadyK-21/cspell-dicts/issues/4326)) ([67a6d10](https://github.com/LadyK-21/cspell-dicts/commit/67a6d1023d6f21edc2c1f553eac51da9c19cd2ee))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Workflow Bot -- Build Dictionaries ([#4333](https://github.com/LadyK-21/cspell-dicts/issues/4333)) ([532adeb](https://github.com/LadyK-21/cspell-dicts/commit/532adeb899ce52bff9228d8532cb6efbe2061ffe))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @cspell/dict-data-science bumped to 2.0.10
+
 ## [4.2.19](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-python@4.2.18...@cspell/dict-python@4.2.19) (2025-07-09)
 
 
