@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.8](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-fullstack@3.2.7...@cspell/dict-fullstack@3.2.8) (2025-07-30)
+
+
+### Updates and Bug Fixes
+
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Workflow Bot -- Update Dictionaries ([#4121](https://github.com/LadyK-21/cspell-dicts/issues/4121)) ([2c8e60d](https://github.com/LadyK-21/cspell-dicts/commit/2c8e60d98a652482024d61317ce7ba0850aa620e))
+
 ## [3.2.7](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-fullstack@3.2.6...@cspell/dict-fullstack@3.2.7) (2025-07-09)
 
 
