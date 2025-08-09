@@ -1,5 +1,24 @@
 # Change Log
 
+## [2.2.0](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-en-common-misspellings@2.1.3...@cspell/dict-en-common-misspellings@2.2.0) (2025-08-09)
+
+
+### Features
+
+* Add typos from crate-ci ([#4538](https://github.com/LadyK-21/cspell-dicts/issues/4538)) ([9acc823](https://github.com/LadyK-21/cspell-dicts/commit/9acc823eb836c106a93843b93982c13043d22a2d))
+
+
+### Updates and Bug Fixes
+
+* add programatic-&gt;programmatic suggestion ([6f4ec6b](https://github.com/LadyK-21/cspell-dicts/commit/6f4ec6b8376732a7ee6b120d5a1d28b5c142a6be))
+* add suggestion of enterprise. ([#4495](https://github.com/LadyK-21/cspell-dicts/issues/4495)) ([de20da8](https://github.com/LadyK-21/cspell-dicts/commit/de20da81f2d3f6fd41d40244df1a74f4b5be8ebd))
+* Convert YAML to JSON for speed. ([#4545](https://github.com/LadyK-21/cspell-dicts/issues/4545)) ([d12dfe6](https://github.com/LadyK-21/cspell-dicts/commit/d12dfe65ece54a1508533c3aed44ceb6e79af4da))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Remove `witten` from dictionary. ([#4421](https://github.com/LadyK-21/cspell-dicts/issues/4421)) ([cf88ff2](https://github.com/LadyK-21/cspell-dicts/commit/cf88ff2419366f74e4558236b00eef5740e12038))
+* Workflow Bot -- Build Dictionaries ([#4494](https://github.com/LadyK-21/cspell-dicts/issues/4494)) ([273998b](https://github.com/LadyK-21/cspell-dicts/commit/273998b2f0a005186220b71948d72556d923de57))
+* Workflow Bot -- Build Dictionaries ([#4537](https://github.com/LadyK-21/cspell-dicts/issues/4537)) ([d961b7b](https://github.com/LadyK-21/cspell-dicts/commit/d961b7bddf2390d7606681433b4245aa2b660778))
+* Workflow Bot -- Build Dictionaries ([#4599](https://github.com/LadyK-21/cspell-dicts/issues/4599)) ([a273cbc](https://github.com/LadyK-21/cspell-dicts/commit/a273cbca8dfc04a9635fe701f2184d56c170eb1d))
+
 ## [2.1.3](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-en-common-misspellings@2.1.2...@cspell/dict-en-common-misspellings@2.1.3) (2025-07-09)
 
 
