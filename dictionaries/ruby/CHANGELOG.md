@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.10](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-ruby@5.0.9...@cspell/dict-ruby@5.0.10) (2025-08-11)
+
+
+### Updates and Bug Fixes
+
+* Add memo and nano to software terms ([#4165](https://github.com/LadyK-21/cspell-dicts/issues/4165)) ([aaf8998](https://github.com/LadyK-21/cspell-dicts/commit/aaf899837c3f0fd8df32a679b956bc7ad99a2666))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+
 ## [5.0.9](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-ruby@5.0.8...@cspell/dict-ruby@5.0.9) (2025-07-09)
 
 
