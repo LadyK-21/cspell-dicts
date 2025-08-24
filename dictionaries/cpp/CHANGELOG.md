@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.11](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-cpp@6.0.10...@cspell/dict-cpp@6.0.11) (2025-08-24)
+
+
+### Updates and Bug Fixes
+
+* exclude "consistant" from cpp dictionary  ([#4754](https://github.com/LadyK-21/cspell-dicts/issues/4754)) ([373a29f](https://github.com/LadyK-21/cspell-dicts/commit/373a29ff3fba7f676a714a037faface400118be2))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Make sure `ocurred` isn't valid ([#4274](https://github.com/LadyK-21/cspell-dicts/issues/4274)) ([d695b45](https://github.com/LadyK-21/cspell-dicts/commit/d695b45b83f4baa4345b0c81b9756635d145086d))
+* Remove misspelling `equivelent ` from CPP ([#4226](https://github.com/LadyK-21/cspell-dicts/issues/4226)) ([0958747](https://github.com/LadyK-21/cspell-dicts/commit/09587475e516ee864782abf89f256d1b430618c9))
+* Workflow Bot -- Build Dictionaries ([#4277](https://github.com/LadyK-21/cspell-dicts/issues/4277)) ([21e4337](https://github.com/LadyK-21/cspell-dicts/commit/21e4337229752202d29654a6e1c2487373137bb0))
+
 ## [6.0.10](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-cpp@6.0.9...@cspell/dict-cpp@6.0.10) (2025-08-21)
 
 
