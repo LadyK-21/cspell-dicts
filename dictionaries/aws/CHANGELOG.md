@@ -22,6 +22,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [4.0.16](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-aws@4.0.15...@cspell/dict-aws@4.0.16) (2025-10-23)
+
+
+### Updates and Bug Fixes
+
+* [aws] Add missing AWS related terms ([#4617](https://github.com/LadyK-21/cspell-dicts/issues/4617)) ([231b3e0](https://github.com/LadyK-21/cspell-dicts/commit/231b3e040e4f896649cc695059df30b2a4d3f9ef))
+* [aws] Add missing AWS related terms ([#4633](https://github.com/LadyK-21/cspell-dicts/issues/4633)) ([b9d0677](https://github.com/LadyK-21/cspell-dicts/commit/b9d0677ad0fe59aa81c79a049b74dcbd1df03744))
+* [aws] Add missing AWS related terms ([#4690](https://github.com/LadyK-21/cspell-dicts/issues/4690)) ([401f27e](https://github.com/LadyK-21/cspell-dicts/commit/401f27e7bba4536409fd3d4644c5fe3253ccc1ed))
+* add "stepfunctions" to the AWS dictionary ([#4744](https://github.com/LadyK-21/cspell-dicts/issues/4744)) ([e225726](https://github.com/LadyK-21/cspell-dicts/commit/e225726602b5dbb8ed7aa4c0a27be238f434361b))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Workflow Bot -- Build Dictionaries ([#4618](https://github.com/LadyK-21/cspell-dicts/issues/4618)) ([245bab4](https://github.com/LadyK-21/cspell-dicts/commit/245bab46db042f427d216fa65e581b0a28e7ab49))
+
 ## [4.0.15](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-aws@4.0.14...@cspell/dict-aws@4.0.15) (2025-08-19)
 
 
