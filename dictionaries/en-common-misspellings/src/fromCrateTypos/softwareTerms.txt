@@ -20,11 +20,15 @@ alloce->alloc
 alloco->alloc
 allocos->allocs
 alse->else
+anitaliasing->antialiasing
+anitialising->antialiasing
 anonimized->anonymized
 anonymyzed->anonymized
 anoynimize->anonymize
+antaliasing->antialiasing
 antialialised->antialiased
 antialised->antialiased
+antialising->antialiasing
 appened->append
 arbitrairy->arbitrary
 arbitrariy->arbitrary
@@ -465,6 +469,7 @@ fullsecreen->fullscreen
 funcstion->function
 furzzer->fuzzer
 fution->function
+georeferncing->georeferencing
 gettetx->gettext
 getttext->gettext
 globas->globals
@@ -585,6 +590,7 @@ mosue->mouse
 moust->mouse
 muext->mutex
 mulithread->multithread
+mulitpath->multipath
 multicat->multicast
 multiecast->multicast
 multithreded->multithreaded
@@ -594,6 +600,7 @@ mutexs->mutexes
 muticast->multicast
 mutices->mutexes
 mutilcast->multicast
+mutipath->multipath
 mutithreaded->multithreaded
 mutux->mutex
 mutuxes->mutexes
@@ -655,6 +662,7 @@ plugable->pluggable
 pluging->plugin
 pocess->process
 pocessed->processed
+postcondtion->postcondition
 powerhsell->powershell
 powersehll->powershell
 poweshell->powershell
