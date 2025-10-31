@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.0](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-companies@3.2.7...@cspell/dict-companies@3.3.0) (2025-10-31)
+
+
+### Features
+
+* add new companies ([#4367](https://github.com/LadyK-21/cspell-dicts/issues/4367)) ([0d0b60f](https://github.com/LadyK-21/cspell-dicts/commit/0d0b60f9f3d542c8ec3eb14e4bedb87085305dee))
+
+
+### Updates and Bug Fixes
+
+* [companies] Add missing companies ([#4692](https://github.com/LadyK-21/cspell-dicts/issues/4692)) ([2c98057](https://github.com/LadyK-21/cspell-dicts/commit/2c9805723a5a20a7702f3ecdc025007ecfd9f933))
+* add Asana, Pinterest ([#4859](https://github.com/LadyK-21/cspell-dicts/issues/4859)) ([1ff80d3](https://github.com/LadyK-21/cspell-dicts/commit/1ff80d373ef37cad657c4b23e51fff05aea4a43b))
+* Add Lidar companies ([#4885](https://github.com/LadyK-21/cspell-dicts/issues/4885)) ([d72e98b](https://github.com/LadyK-21/cspell-dicts/commit/d72e98b84aaa7db4b6f42800bd7bab163149afaa))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Update companies.txt ([#4733](https://github.com/LadyK-21/cspell-dicts/issues/4733)) ([569f766](https://github.com/LadyK-21/cspell-dicts/commit/569f766fcda09fe9a46a0817edd70dd6ca9c79b9))
+* Update companies.txt ([#4747](https://github.com/LadyK-21/cspell-dicts/issues/4747)) ([ea4b6c7](https://github.com/LadyK-21/cspell-dicts/commit/ea4b6c776b0746d6fc8e1a6a2b09a7a35eff9698))
+* Workflow Bot -- Build Dictionaries ([#4383](https://github.com/LadyK-21/cspell-dicts/issues/4383)) ([9e84dfc](https://github.com/LadyK-21/cspell-dicts/commit/9e84dfcc64fac08bb5a6e92ccfc80121e069ff45))
+* Workflow Bot -- Build Dictionaries ([#4749](https://github.com/LadyK-21/cspell-dicts/issues/4749)) ([fc46b0f](https://github.com/LadyK-21/cspell-dicts/commit/fc46b0f1111dc443fa588ba84dde1576d1be661e))
+* Workflow Bot -- Build Dictionaries ([#4901](https://github.com/LadyK-21/cspell-dicts/issues/4901)) ([545c4d2](https://github.com/LadyK-21/cspell-dicts/commit/545c4d265aa85c3f7a0e7761e29b8542b5f5b2c5))
+* Workflow Bot -- Update Dictionaries ([#4382](https://github.com/LadyK-21/cspell-dicts/issues/4382)) ([f35bbf0](https://github.com/LadyK-21/cspell-dicts/commit/f35bbf048eb631963f62eece5843573a821103d5))
+
+
+### Tests
+
+* Improve tests for Companies ([#4378](https://github.com/LadyK-21/cspell-dicts/issues/4378)) ([62d03f1](https://github.com/LadyK-21/cspell-dicts/commit/62d03f1155a9f11e352e688e916dde7c5f233254))
+
 ## [3.2.7](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-companies@3.2.6...@cspell/dict-companies@3.2.7) (2025-10-26)
 
 

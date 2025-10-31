@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.17](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-docker@1.1.16...@cspell/dict-docker@1.1.17) (2025-10-31)
+
+
+### Updates and Bug Fixes
+
+* [docker] Add missing Docker related terms ([#4678](https://github.com/LadyK-21/cspell-dicts/issues/4678)) ([058506f](https://github.com/LadyK-21/cspell-dicts/commit/058506f24c1ccb10e2775713e60792df70454124))
+* add Docker-related words ([#4328](https://github.com/LadyK-21/cspell-dicts/issues/4328)) ([915e125](https://github.com/LadyK-21/cspell-dicts/commit/915e125aed9f3cf80e85bb0c03ae6a0c93582b22))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+
 ## [1.1.16](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-docker@1.1.15...@cspell/dict-docker@1.1.16) (2025-07-21)
 
 
