@@ -1,5 +1,15 @@
 # Change Log
 
+## [2.0.12](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-data-science@2.0.11...@cspell/dict-data-science@2.0.12) (2025-10-31)
+
+
+### Updates and Bug Fixes
+
+* add `meshgrid` to `python` and `data-science` ([#4822](https://github.com/LadyK-21/cspell-dicts/issues/4822)) ([f6bfbc2](https://github.com/LadyK-21/cspell-dicts/commit/f6bfbc21a778be2b4d0d4ab9340317b72d4e1da5))
+* Add data science terms ([#4892](https://github.com/LadyK-21/cspell-dicts/issues/4892)) ([3e47967](https://github.com/LadyK-21/cspell-dicts/commit/3e4796771da7ecb2595ac424063c03bf4299e716))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Workflow Bot -- Build Dictionaries ([#4901](https://github.com/LadyK-21/cspell-dicts/issues/4901)) ([545c4d2](https://github.com/LadyK-21/cspell-dicts/commit/545c4d265aa85c3f7a0e7761e29b8542b5f5b2c5))
+
 ## [2.0.11](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-data-science@2.0.10...@cspell/dict-data-science@2.0.11) (2025-10-26)
 
 
