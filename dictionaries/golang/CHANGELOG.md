@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.25](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-golang@6.0.24...@cspell/dict-golang@6.0.25) (2025-11-22)
+
+
+### Updates and Bug Fixes
+
+* add 'logrus' to common Go libraries dictionary ([#4513](https://github.com/LadyK-21/cspell-dicts/issues/4513)) ([4062ed3](https://github.com/LadyK-21/cspell-dicts/commit/4062ed3ba2f1f76272ba8fa1a4117a8179d39bab))
+* Add software terms ([#4893](https://github.com/LadyK-21/cspell-dicts/issues/4893)) ([fa94b2e](https://github.com/LadyK-21/cspell-dicts/commit/fa94b2ed72fcae3a7e4194915a752b271a0c31fc))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Workflow Bot -- Build Dictionaries ([#4396](https://github.com/LadyK-21/cspell-dicts/issues/4396)) ([e403efc](https://github.com/LadyK-21/cspell-dicts/commit/e403efc5edc0c356d03e61fc62c78955baa7973e))
+* Workflow Bot -- Build Dictionaries ([#4507](https://github.com/LadyK-21/cspell-dicts/issues/4507)) ([f1739a7](https://github.com/LadyK-21/cspell-dicts/commit/f1739a7b97a319e19680de5dea4b6790ba40d638))
+
 ## [6.0.24](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-golang@6.0.23...@cspell/dict-golang@6.0.24) (2025-10-26)
 
 
