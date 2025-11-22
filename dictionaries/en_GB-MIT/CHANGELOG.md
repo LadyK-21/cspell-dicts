@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://github.com/LadyK-21/cspell-dicts/compare/@cspell/dict-en-gb-mit@3.1.14...@cspell/dict-en-gb-mit@3.2.0) (2025-11-22)
+
+
+### Features
+
+* add en_shared -ize forms to en_GB-MIT ([#4486](https://github.com/LadyK-21/cspell-dicts/issues/4486)) ([a0b8074](https://github.com/LadyK-21/cspell-dicts/commit/a0b807473646e2a864be7bacbf076f98605d6ce2))
+
+
+### Updates and Bug Fixes
+
+* Add `rigueur` to en_GB-MIT ([#4390](https://github.com/LadyK-21/cspell-dicts/issues/4390)) ([4a4dd5c](https://github.com/LadyK-21/cspell-dicts/commit/4a4dd5ceda6c192afef7b513d277528507bddf5a))
+* add back unverified words to fix breakage caused by recent changes to the en_GB-MIT dictionary  ([#4366](https://github.com/LadyK-21/cspell-dicts/issues/4366)) ([416115d](https://github.com/LadyK-21/cspell-dicts/commit/416115dec22567d94fb0246b64489fcfdddfc988))
+* Add more legacy words to en_GB-MIT ([#4385](https://github.com/LadyK-21/cspell-dicts/issues/4385)) ([4e6394a](https://github.com/LadyK-21/cspell-dicts/commit/4e6394abd77cd65f9aa6dab5466b4ba2be0f2a71))
+* en-gb-mit -- add in more legacy words ([#4414](https://github.com/LadyK-21/cspell-dicts/issues/4414)) ([cab5b5c](https://github.com/LadyK-21/cspell-dicts/commit/cab5b5c7df865005fbfb820da660282edf1da781))
+* English cleanup ([#4391](https://github.com/LadyK-21/cspell-dicts/issues/4391)) ([3455b64](https://github.com/LadyK-21/cspell-dicts/commit/3455b64f9bd6f9c4a1f6d53e3cc84ea8d7d63e1f))
+* Improve install documentation ([#4640](https://github.com/LadyK-21/cspell-dicts/issues/4640)) ([ce83729](https://github.com/LadyK-21/cspell-dicts/commit/ce837295163125b6ff57494d9de1609edc6204e6))
+* Make sure `en_GB-MIT` is a drop in replacement for `en_GB`. ([#4380](https://github.com/LadyK-21/cspell-dicts/issues/4380)) ([38843d4](https://github.com/LadyK-21/cspell-dicts/commit/38843d455b2adc0482a5c85377feb210c7b23c91))
+* Remove `typw` from the English dictionary ([#4774](https://github.com/LadyK-21/cspell-dicts/issues/4774)) ([b57f9a2](https://github.com/LadyK-21/cspell-dicts/commit/b57f9a2db71043ffa16f7c895fa8b82f39f5bb78))
+* Remove `witten` from dictionary. ([#4421](https://github.com/LadyK-21/cspell-dicts/issues/4421)) ([cf88ff2](https://github.com/LadyK-21/cspell-dicts/commit/cf88ff2419366f74e4558236b00eef5740e12038))
+* Workflow Bot -- Build Dictionaries ([#4376](https://github.com/LadyK-21/cspell-dicts/issues/4376)) ([da224f8](https://github.com/LadyK-21/cspell-dicts/commit/da224f8c212b34a0c4e8b1557a21851a1f909152))
+* Workflow Bot -- Build Dictionaries ([#4386](https://github.com/LadyK-21/cspell-dicts/issues/4386)) ([2e1d877](https://github.com/LadyK-21/cspell-dicts/commit/2e1d8776dcf8e93bbd9b130db05559916ad81c0b))
+* Workflow Bot -- Build Dictionaries ([#4393](https://github.com/LadyK-21/cspell-dicts/issues/4393)) ([64dedb4](https://github.com/LadyK-21/cspell-dicts/commit/64dedb43c7146ac51f8ee9a1b12cc51864362b5d))
+* Workflow Bot -- Build Dictionaries ([#4406](https://github.com/LadyK-21/cspell-dicts/issues/4406)) ([7e02e36](https://github.com/LadyK-21/cspell-dicts/commit/7e02e36dd735dd9d28639f230301cd057715873d))
+* Workflow Bot -- Build Dictionaries ([#4412](https://github.com/LadyK-21/cspell-dicts/issues/4412)) ([5568803](https://github.com/LadyK-21/cspell-dicts/commit/5568803c88620b0e80d2048911222c627accafa7))
+* Workflow Bot -- Build Dictionaries ([#4521](https://github.com/LadyK-21/cspell-dicts/issues/4521)) ([8c68505](https://github.com/LadyK-21/cspell-dicts/commit/8c68505f0ccb0f762571485f845cf9476303f57e))
+* Workflow Bot -- Build Dictionaries ([#4599](https://github.com/LadyK-21/cspell-dicts/issues/4599)) ([a273cbc](https://github.com/LadyK-21/cspell-dicts/commit/a273cbca8dfc04a9635fe701f2184d56c170eb1d))
+* Workflow Bot -- Build Dictionaries ([#4657](https://github.com/LadyK-21/cspell-dicts/issues/4657)) ([f1dcc18](https://github.com/LadyK-21/cspell-dicts/commit/f1dcc18e22e3d06ab438d46205d1b06dc622d5ee))
+* Workflow Bot -- Build Dictionaries ([#4743](https://github.com/LadyK-21/cspell-dicts/issues/4743)) ([29cf356](https://github.com/LadyK-21/cspell-dicts/commit/29cf35675be7ba5160ab2665c9574ac3ded68d05))
+* Workflow Bot -- Build Dictionaries ([#4790](https://github.com/LadyK-21/cspell-dicts/issues/4790)) ([3864e50](https://github.com/LadyK-21/cspell-dicts/commit/3864e508eac5c7fbb3124b54d8acd28985a234af))
+* Workflow Bot -- Build Dictionaries ([#4796](https://github.com/LadyK-21/cspell-dicts/issues/4796)) ([e86088d](https://github.com/LadyK-21/cspell-dicts/commit/e86088dca03fd5c1452ea7c063414c48e43883b0))
+* Workflow Bot -- Build Dictionaries ([#4867](https://github.com/LadyK-21/cspell-dicts/issues/4867)) ([09cbc17](https://github.com/LadyK-21/cspell-dicts/commit/09cbc170e6b376d6e52e4a57f1cec393a56bec6e))
+* Workflow Bot -- Build Dictionaries ([#4878](https://github.com/LadyK-21/cspell-dicts/issues/4878)) ([9395555](https://github.com/LadyK-21/cspell-dicts/commit/9395555b191a632e8ec65a45e775790978f8dbb5))
+* Workflow Bot -- Build Dictionaries ([#4901](https://github.com/LadyK-21/cspell-dicts/issues/4901)) ([545c4d2](https://github.com/LadyK-21/cspell-dicts/commit/545c4d265aa85c3f7a0e7761e29b8542b5f5b2c5))
+* Workflow Bot -- Build Dictionaries ([#4920](https://github.com/LadyK-21/cspell-dicts/issues/4920)) ([625f1ff](https://github.com/LadyK-21/cspell-dicts/commit/625f1ff41cc6369a540b1ce81f7c4bc3372efca6))
+* Workflow Bot -- Build Dictionaries ([#4926](https://github.com/LadyK-21/cspell-dicts/issues/4926)) ([f8ded5e](https://github.com/LadyK-21/cspell-dicts/commit/f8ded5ee85937e215022ef392af8266f9c6adc03))
+
+
+### Code Refactoring
+
+* consolidate English shared `-ise` words into `shared-additional-words-ise.txt` ([#4397](https://github.com/LadyK-21/cspell-dicts/issues/4397)) ([36a1d61](https://github.com/LadyK-21/cspell-dicts/commit/36a1d612042a7e1d707a1c10c6c59c948fb43034))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @cspell/aoo-mozilla-en-dict bumped to 1.0.6
+    * @cspell/dict-en-shared bumped to 1.0.48
+
 ## [3.1.14](https://github.com/streetsidesoftware/cspell-dicts/compare/@cspell/dict-en-gb-mit@3.1.13...@cspell/dict-en-gb-mit@3.1.14) (2025-11-01)
 
 
