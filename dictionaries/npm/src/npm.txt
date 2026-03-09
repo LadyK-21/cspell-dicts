@@ -1768,6 +1768,7 @@ manifest
 mantine-contextmenu
 many-favorite6
 map-stream
+mapbox-gl
 mapboxgl-legend
 markdown
 markdown-it
